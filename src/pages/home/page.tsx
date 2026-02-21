@@ -29,7 +29,7 @@ export default function HomePage() {
       <Hero />
       <Showreel />
       <Services />
-      <Pricing />
+      {/* <Pricing /> */}
       <WhyUs />
       <Portfolio />
       <Testimonials />

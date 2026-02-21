@@ -15,7 +15,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img 
-                src="https://public.readdy.ai/ai/img_res/95f0f47a-9a06-4719-98b0-bea1b396d412.png" 
+                src="" 
                 alt="Frame of Hope Logo" 
                 className="h-10 w-10 object-contain"
               />
@@ -105,12 +105,12 @@ export default function Footer() {
               © 2025 Frame of Hope. All rights reserved.
             </p>
             <a 
-              href="https://readdy.ai/?ref=logo" 
+              href="https://yusufias-potfolio.vercel.app" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-white/50 hover:text-[#D4AF37] text-sm transition-colors cursor-pointer"
             >
-              Powered by Readdy
+              By Yusufia Dev
             </a>
           </div>
         </div>

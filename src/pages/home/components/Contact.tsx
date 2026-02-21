@@ -30,7 +30,7 @@ export default function Contact() {
         formBody.append(key, value);
       });
 
-      const response = await fetch('https://readdy.ai/api/form/d63klktsi3r5mpi9v0d0', {
+      const response = await fetch('', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
@@ -58,7 +58,7 @@ export default function Contact() {
     }
   };
 
-  const whatsappNumber = '2348012345678';
+  const whatsappNumber = '2348134217162';
   const whatsappMessage = encodeURIComponent('Hi Frame of Hope! I would like to book a shoot.');
 
   return (
@@ -100,7 +100,7 @@ export default function Contact() {
                   <i className="ri-phone-line text-[#D4AF37] text-3xl"></i>
                 </div>
                 <div>
-                  <p className="text-white font-semibold">+234 801 234 5678</p>
+                  <p className="text-white font-semibold"><a href="tel:2348134217162">+234 813 421 7162</a></p>
                   <p className="text-white/60 text-sm">Call us directly</p>
                 </div>
               </a>
