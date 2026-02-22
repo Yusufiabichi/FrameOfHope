@@ -125,7 +125,7 @@ export default function Contact() {
               <p className="text-white/60 mb-4 text-sm uppercase tracking-wider">Follow Us</p>
               <div className="flex gap-4">
                 <a
-                  href="https://instagram.com/frameofhope"
+                  href="https://instagram.com/frame_ofhope"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full border-2 border-[#D4AF37] flex items-center justify-center hover:bg-[#D4AF37] hover:text-black transition-all cursor-pointer"
