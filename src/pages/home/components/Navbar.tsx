@@ -43,9 +43,9 @@ export default function Navbar({ scrolled }: NavbarProps) {
             <button onClick={() => scrollToSection('services')} className="text-white hover:text-[#D4AF37] transition-colors whitespace-nowrap cursor-pointer">
               Services
             </button>
-            <button onClick={() => scrollToSection('pricing')} className="text-white hover:text-[#D4AF37] transition-colors whitespace-nowrap cursor-pointer">
+            {/* <button onClick={() => scrollToSection('pricing')} className="text-white hover:text-[#D4AF37] transition-colors whitespace-nowrap cursor-pointer">
               Pricing
-            </button>
+            </button> */}
             <button onClick={() => scrollToSection('portfolio')} className="text-white hover:text-[#D4AF37] transition-colors whitespace-nowrap cursor-pointer">
               Portfolio
             </button>
@@ -75,9 +75,9 @@ export default function Navbar({ scrolled }: NavbarProps) {
             <button onClick={() => scrollToSection('services')} className="text-white hover:text-[#D4AF37] transition-colors text-left whitespace-nowrap cursor-pointer">
               Services
             </button>
-            <button onClick={() => scrollToSection('pricing')} className="text-white hover:text-[#D4AF37] transition-colors text-left whitespace-nowrap cursor-pointer">
+            {/* <button onClick={() => scrollToSection('pricing')} className="text-white hover:text-[#D4AF37] transition-colors text-left whitespace-nowrap cursor-pointer">
               Pricing
-            </button>
+            </button> */}
             <button onClick={() => scrollToSection('portfolio')} className="text-white hover:text-[#D4AF37] transition-colors text-left whitespace-nowrap cursor-pointer">
               Portfolio
             </button>
