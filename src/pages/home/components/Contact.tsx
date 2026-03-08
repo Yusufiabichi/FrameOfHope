@@ -37,6 +37,7 @@ export default function Contact() {
         },
         body: formBody.toString()
       });
+        console.log(formData)
 
       if (response.ok) {
         setSubmitStatus('success');
@@ -107,14 +108,14 @@ export default function Contact() {
 
               {/* Email */}
               <a
-                href="mailto:info@frameofhope.ng"
+                href="mailto:abubakarabdulaziz@gmail.com"
                 className="flex items-center gap-4 p-4 bg-[#1A1A1A] rounded-xl hover:bg-[#252525] transition-all cursor-pointer"
               >
                 <div className="w-12 h-12 flex items-center justify-center">
                   <i className="ri-mail-line text-[#D4AF37] text-3xl"></i>
                 </div>
                 <div>
-                  <p className="text-white font-semibold">info@frameofhope.ng</p>
+                  <p className="text-white font-semibold">abubakarabdulaziz@gmail.com</p>
                   <p className="text-white/60 text-sm">Send us an email</p>
                 </div>
               </a>
