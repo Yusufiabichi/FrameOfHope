@@ -6,31 +6,31 @@ const videos = [
     id: 1,
     title: 'Wedding Highlights',
     subtitle: 'Amina & Ibrahim',
-    image: '',
+    url: '',
   },
   {
     id: 2,
     title: 'Commercial Campaign',
     subtitle: 'Brand Storytelling',
-    image: '',
+    url: '',
   },
   {
     id: 3,
     title: 'Lifestyle Session',
     subtitle: 'Creative Portraits',
-    image: '',
+    url: '',
   },
   {
     id: 4,
     title: 'Event Coverage',
     subtitle: 'Corporate Gala Night',
-    image: 'https://readdy.ai/api/search-image?query=elegant%20corporate%20gala%20event%20with%20dramatic%20stage%20lighting%20and%20sophisticated%20venue%20decoration%20luxury%20celebration%20captured%20cinematically%20with%20warm%20golden%20ambient%20light%20professional%20event%20videography%20atmosphere&width=1400&height=788&seq=showreel-thumb-004&orientation=landscape',
+    url: '',
   },
   {
     id: 5,
     title: 'Birthday Celebration',
     subtitle: 'Joyful Moments',
-    image: 'https://readdy.ai/api/search-image?query=vibrant%20birthday%20celebration%20party%20with%20beautiful%20decorations%20and%20warm%20ambient%20lighting%20joyful%20festive%20atmosphere%20captured%20cinematically%20with%20golden%20tones%20elegant%20venue%20setup%20colorful%20balloons%20and%20cake&width=1400&height=788&seq=showreel-thumb-005&orientation=landscape',
+    url: '',
   },
 ];
 
@@ -87,7 +87,7 @@ export default function Showreel() {
                 style={{ opacity: activeIndex === index ? 1 : 0, zIndex: activeIndex === index ? 2 : 1 }}
               >
                 <img
-                  src={video.image}
+                  src={video.url}
                   alt={video.title}
                   className="w-full h-full object-cover object-top"
                 />
@@ -166,7 +166,7 @@ export default function Showreel() {
               >
                 <div className="w-full h-16 md:h-20">
                   <img
-                    src={video.image}
+                    src={video.url}
                     alt={video.title}
                     className="w-full h-full object-cover object-top"
                   />
