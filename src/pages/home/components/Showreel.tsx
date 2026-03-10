@@ -6,19 +6,19 @@ const videos = [
     id: 1,
     title: 'Wedding Highlights',
     subtitle: 'Amina & Ibrahim',
-    image: 'https://readdy.ai/api/search-image?query=cinematic%20wedding%20videography%20showreel%20thumbnail%20with%20elegant%20bride%20and%20groom%20in%20dramatic%20golden%20hour%20lighting%20professional%20film%20production%20quality%20romantic%20atmosphere%20bokeh%20background%20luxury%20wedding%20venue%20emotional%20moment%20captured%20beautifully%20warm%20tones&width=1400&height=788&seq=showreel-thumb-001&orientation=landscape',
+    image: '',
   },
   {
     id: 2,
     title: 'Commercial Campaign',
     subtitle: 'Brand Storytelling',
-    image: 'https://readdy.ai/api/search-image?query=professional%20commercial%20video%20production%20behind%20the%20scenes%20with%20camera%20equipment%20and%20dramatic%20studio%20lighting%20modern%20brand%20advertisement%20cinematic%20quality%20sleek%20dark%20moody%20atmosphere%20product%20showcase%20elegant%20setup&width=1400&height=788&seq=showreel-thumb-002&orientation=landscape',
+    image: '',
   },
   {
     id: 3,
     title: 'Lifestyle Session',
     subtitle: 'Creative Portraits',
-    image: 'https://readdy.ai/api/search-image?query=lifestyle%20portrait%20video%20session%20with%20confident%20young%20woman%20in%20stylish%20outfit%20against%20warm%20golden%20sunset%20backdrop%20cinematic%20storytelling%20natural%20light%20beautiful%20outdoor%20location%20artistic%20composition%20vibrant%20colors&width=1400&height=788&seq=showreel-thumb-003&orientation=landscape',
+    image: '',
   },
   {
     id: 4,
